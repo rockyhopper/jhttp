@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rockyhopper_jhttp_1726748497879-pr-trigger-input-set
+  identifier: Build_rockyhopper_jhttp_1726748497879prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rockyhopper_jhttp_1726748497879
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
